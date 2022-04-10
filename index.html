@@ -4,28 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="./index.css">
+    <title> Reto 1</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <form>
-        <div class="up">
-        <h1>Contactenos</h1>
-        <label for="nombres"><b>Nombres</b></label><br>
-        <input type="text" required><br>
-        <label for="apellidos"><b>Apellidos</b></label><br>
-        <input type="text" required><br>
-        <label for="correo"><b>Correo</b></label><br>
-        <input type="email" required><br>
-        <label for="telefono"><b>Telefono</b><br>
-        <input type="number" required><br>
-        <label for="mensaje"><b>Mensaje</b></label><br>
-        <textarea cols="20" rows="5" required></textarea><br><br>
-        <div class="down">
-            <input type="submit" value="Enviar" class="boton">
-            </div>
+    <header class="header">
+        <div class="header__container">
+            <img src="https://static.vecteezy.com/system/resources/previews/002/776/027/large_2x/cartoon-illustration-isolated-object-delicious-flour-food-bakery-bread-vector.jpg" alt="Imagen Pan" class="header-h1_imagen">
+            <h1>Contáctenos</h1>
         </div>
-        
-    </form>
+    </header>
+
+    <main class="main">
+        <form class="main-form">
+            <div class="main-form__container">
+                <label for="nombres" class="main-form__label">Nombres</label>
+                <input type="text" id="nombres" class="main-form__input" required>
+                <label for="apellidos" class="main-form__label">Apellidos</label>
+                <input type="text" id="apellidos" class="main-form__input" required>
+                <label for="correo" class="main-form__label">Correo</label>
+                <input type="email" id="correo" class="main-form__input" required>
+                <label for="telefono" class="main-form__label">Teléfono</label>
+                <input type="number" id="telefono" class="main-form__input" required>
+                <label for="mensaje" class="main-form__label">Mensaje</label>
+                <textarea cols="20" rows="5" id="mensaje" class="main-form__input" required placeholder="¿En qué podemos ayudarlo?"></textarea>
+                <input type="submit" value="Enviar" class="main-form__button">
+            </div>
+        </form>
+
+        <div class="main-table__container">
+            <h2>Nuestros locales</h2>
+            <table class="main__table">
+                <tr>
+                    <th class="main-table__th">Dirección</th>
+                    <th class="main-table__th">Horario</th>
+                    <th class="main-table__th">Teléfono</th>
+                </tr>
+
+                <tr>
+                    <td class="main-table__td">Calle Junín No. 494,
+                        Miraflores</td>
+                    <td class="main-table__td">De lunes a sábado
+                        07:00 am a 09:00 pm</td>
+                    <td class="main-table__td">(01)444-2348</td>
+                </tr>
+
+                <tr>
+                    <td class="main-table__td">Av. Javier Prado Este 5675
+                        La Molina</td>
+                    <td class="main-table__td">De lunes a sábado
+                        10:00 am. a 8:00pm</td>
+                    <td class="main-table__td">(01)435-8949</td>
+                </tr>
+
+                <tr>
+                    <td class="main-table__td">Calle Simón Salguero 540 Tienda 2,
+                        Urb. Los Tulipanes
+                        Santiago de surco</td>
+                    <td class="main-table__td">De lunes a sábado
+                        10:00 am. a 8:00pm</td>
+                    <td class="main-table__td">(01)271-3057</td>
+                </tr>
+
+                <tr>
+                    <td class="main-table__td">Calle Ignacio Merino 110,
+                        Barranco 15063</td>
+                    <td class="main-table__td">De lunes a sábado
+                        10:00 am. a 8:00pm</td>
+                    <td class="main-table__td">(01)547-8547</td>
+                </tr>
+
+            </table>
+        </div>
+    </main>
 </body>
 </html>

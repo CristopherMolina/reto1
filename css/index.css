@@ -1,0 +1,69 @@
+
+:root{
+    color:#ad7c44;
+    background:url(https://static.vecteezy.com/system/resources/previews/002/677/480/large_2x/abstract-cream-color-clean-cement-wall-background-pastel-color-modern-background-concrete-with-rough-texture-concrete-art-rough-stylized-texture-free-photo.jpg) center;
+    font-family: 'Courgette', cursive;
+}
+
+.header__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header-h1_imagen{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.main-form__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.main-form__label{
+    padding-right: 15rem;
+    font-size: 20px;
+}
+
+.main-form__input{
+    width: 15rem;
+    font-size: 15px;
+    border:none;
+    border-radius:25px;
+    padding:15px 20px;
+    background:rgba(212, 214, 231, 0.548);
+    font-family: 'Courgette', cursive;
+}
+
+.main-form__button{
+    background:#ad7c44;
+    color: #ffffff;
+    font-size: 20px;
+    border:none;
+    border-radius:25px;
+    padding:15px 20px;
+    font-family: 'Courgette', cursive;
+    margin-bottom: 2rem;
+}
+
+.main-table__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-table__th{
+    background-color: #ad7c44;
+    border: 2px solid rgb(117, 73, 52);
+    color: white;
+}
+
+.main-table__td{
+    border: 2px solid rgb(155, 92, 67);
+}
